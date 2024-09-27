@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retro Forum</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
-    <h1>hellow world</h1>
+    <!------------------ navbar part start  -->
+    <header class="container mx-auto">
+        <div class="navbar  mt-8">
+            <!-- nav logo -------- -->
+            <div class="flex-1">
+              <a href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+            <!-- icons part -->
+            <div>
+                <a class="tooltip" data-tip="Home" href="#"><i class="inline-block border border-gray-600 rounded-full p-2 text-gray-600 fa-solid fa-house hover:text-teal-600 hover:border-teal-600 me-3 text-sm"></i></a>
+
+                <a class="tooltip" data-tip="Write" href="#"><i class="inline-block border border-gray-600 rounded-full p-2 text-gray-600 fa-solid fa-pencil hover:text-teal-600 hover:border-teal-600 me-3 text-sm"></i></a>
+
+                <a class="tooltip" data-tip="Add" href="#"><i class="inline-block border border-gray-600 rounded-full p-2 text-gray-600 fa-solid fa-user-plus hover:text-teal-600 hover:border-teal-600 me-3 text-sm"></i></a>
+
+                <a class="tooltip" data-tip="Save" href="#"><i class="inline-block border border-gray-600 rounded-full p-2 text-gray-600 fa-regular fa-flag hover:text-teal-600 hover:border-teal-600 me-3 text-sm"></i></a>
+            </div>
+            <!-- button part  -->
+             <div>
+                <button class="btn rounded-full py-0 bg-violet-600 px-4 text-white hover:text-black">sign in</button>
+             </div>
+          </div>
+    </header>
+
 </body>
 </html>
